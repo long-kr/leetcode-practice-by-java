@@ -1,5 +1,14 @@
 package solution;
 
+// Medium
+// Example Input
+// new char[][] {
+//                 { '1', '1', '1', '1', '0' },
+//                 { '1', '1', '0', '1', '0' },
+//                 { '1', '1', '0', '0', '0' },
+//                 { '0', '0', '0', '0', '0' }
+//         }
+
 public class NumberOfIslands {
     public static int numIslands(char[][] grid) {
         int count = 0;
