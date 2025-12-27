@@ -26,7 +26,7 @@ public class IndexOfFirstOccurenceInString {
         for (int i = 0; i < longLen - shortLen; i++) {
 
             if (haystack.charAt(i) == needle.charAt(0)) {
-                for (int j = 1; j < shortLen; j++) {
+                for (int j = 0; j < shortLen; j++) {
                     if (haystack.charAt(i + j) != needle.charAt(j))
                         break;
 
