@@ -1,10 +1,9 @@
-import solution.IndexOfFirstOccurenceInString;
-import solution.KthLargestElement;
+import solution.CombinationSum;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
-        System.out.println(KthLargestElement.findKthLargest(new int[] { 3, 2, 1, 5, 6, 4 }, 2));
+        System.out.println(CombinationSum.combinationSum(new int[] { 2, 3, 6, 7 }, 7));
 
     }
 
