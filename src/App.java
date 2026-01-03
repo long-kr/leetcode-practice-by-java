@@ -1,9 +1,10 @@
 import solution.CombinationSum;
+import solution.HappyNumber;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
-        System.out.println(CombinationSum.combinationSum(new int[] { 2, 3, 6, 7 }, 7));
+        System.out.println(HappyNumber.isHappy(19));
 
     }
 
