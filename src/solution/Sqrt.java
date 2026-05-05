@@ -10,14 +10,17 @@ public class Sqrt {
         // 0 1 2 3 4 5 6 7
 
         int lo = 0;
-        int hi = x;
+        int hi = x / 2;
 
         while (lo < hi) {
             int mid = lo + (hi - lo) / 2;
-            System.out.println(mid);
+            long sq = (long) mid * mid;
 
-            if (mid * mid >= x) {
-                hi = mid;
+            if (sq == x)
+                return mid;
+
+            if (sq > x) {
+                hi = mid - 1;
             } else {
                 lo = mid + 1;
             }
